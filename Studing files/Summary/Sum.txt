@@ -1,0 +1,84 @@
+    search bout the keyword "con" "Aux" in the win... system
+
+<< stream insertion operator
+\n: backslash-n, an escape sequence (special character) for a new line
+
+Variables: Basic Knowledge
+- A variable is a data container with a unique name called an identifier.
+- Declare a variable with a value; its value can be changed later.
+
+Syntax:
+[Data_Type] [Variable_Name] = [Value];
+ 
+ 
+Variables: Naming Rules & Best Practices
+
+Naming Rules:
+- Each variable name must be unique within its scope.
+  Example: int age = 20;
+
+- C++ is case-sensitive, so "age" and "Age" are different names.
+
+- A variable name cannot start with a number.
+  Valid:  age1
+  Invalid: 1age
+
+- A variable name may contain letters, numbers, and underscores (_).
+  Valid: student_age
+
+- A variable name cannot contain spaces or special characters such as @, #, or -.
+  Use an underscore instead of a space: student_age
+
+- Reserved C++ keywords cannot be used as variable names.
+  Examples: int, class, and return
+
+Best Practices:
+- Choose meaningful names that describe the stored value.
+  Good:  int studentAge = 20;
+  Avoid: int x = 20;
+
+- Use a consistent naming style throughout the program.
+  Examples: studentAge (camelCase), student_age (snake_case)
+
+
+C++ Reserved Words (Keywords)
+
+Reserved words have a special meaning in C++.
+They are part of the language syntax, so they cannot be used as variable,
+function, or class names.
+
+Examples:
+int age = 20;       => "int" is a keyword; "age" is the variable name.
+class Student {};   => "class" is a keyword; "Student" is the class name.
+return 0;           => "return" is a keyword used to return a value.
+
+Other reserved words include:
+if, else, for, while, switch, case, break, continue, public, private,
+const, float, double, char, and void.
+
+
+Variables: Advanced Knowledge
+
+- Declare a variable without assigning a value, then assign a value later.
+- Declare multiple variables without values, then assign values later.
+- Declare multiple variables and give them the same value.
+
+
+Local Variable:
+A variable declared inside a function or block.
+It can only be used within that function or block.
+
+Global Variable:
+A variable declared outside all functions.
+It can be accessed by functions declared after it.
+
+#define:
+A preprocessor directive that defines a name-like macro.
+The preprocessor replaces each use of that name with its value before compilation.
+It does not declare a variable and has no data type.
+
+Example:
+#define TAX_RATE 0.14
+
+
+
