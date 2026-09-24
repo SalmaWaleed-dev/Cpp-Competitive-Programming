@@ -53,3 +53,18 @@ I'm **Salma Waleed**, a Computer Science student learning Competitive Programmin
 ⭐ **Thanks for visiting!**
 
 > One problem at a time. 🚀
+ 
+---
+
+
+<div align="center">
+
+### ✨ Developed with passion by
+
+**Salma Waleed**
+
+<img src="Images/signature.png" width="180" alt="Salma Waleed Signature">
+
+**BookNest — Read • Learn • Grow**
+
+</div>
