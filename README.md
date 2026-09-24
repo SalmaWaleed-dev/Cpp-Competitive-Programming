@@ -65,6 +65,6 @@ I'm **Salma Waleed**, a Computer Science student learning Competitive Programmin
 
 <img src="Images/signature.png" width="180" alt="Salma Waleed Signature">
 
-**Learning c++ **
+**Learning c++**
 
 </div>
