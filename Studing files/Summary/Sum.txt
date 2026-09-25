@@ -81,4 +81,42 @@ Example:
 #define TAX_RATE 0.14
 
 
+conastant variable :
+  we put the keyword " const " before the data type 
+    * this variable assign for read only value
+    * we can't declare the variable without a value 
+  Examples : 
+    - hours of working in the company.
+    - the level in the game like the hard levels or easy .
+    - the file that is make a connection with u in the faebook DB .
+  THERE IS ANOTHE WAY TO MAKE A CONSTANT VARIABLE ( DON'T USE IT ) :
+    by using keyword define ( #define [Variable name] [Value] )
 
+Escape Sequances Characters :
+  - Special Non Printing Characters 
+  - Control Printing Behaviour
+  - Start With Back Slash "\"
+  - can be inserted in any position
+      \n => New line 
+      \\ => to print a back slash 
+      \" => to put a word in a double coutes in the printing sentence => \" Salma \* 
+      \' => 
+      \t => making the tap Equal 8 spaces
+      \b => "backspace" delete the last letter before it directly
+      \a => "Alert" play beep during excution
+      \r => carriage return  => the pointer back to start and override the current print and replace it with the words after \r .
+
+Data Types :
+    - Integer => not a fractian num
+    - String  => text 
+    - Boolean => True / False 
+    - Float   => A fractian num 
+    - Array   => list that contains a similar data
+
+  Why We Choose Data?
+    every data type has 
+      - Size => we use sizeof() to know it 
+      - Operation
+
+   What Is Operand ?
+  - The Part Of an Instruction Representing The Data Manipulated by The Operator.
