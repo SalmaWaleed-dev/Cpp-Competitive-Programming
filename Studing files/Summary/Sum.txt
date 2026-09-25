@@ -107,10 +107,10 @@ Escape Sequances Characters :
       \r => carriage return  => the pointer back to start and override the current print and replace it with the words after \r .
 
 Data Types :
-    - Integer => not a fractian num
+    - Integer => not a Fractional num
     - String  => text 
     - Boolean => True / False 
-    - Float   => A fractian num 
+    - Float   => A Fractional num 
     - Array   => list that contains a similar data
 
   Why We Choose Data?
@@ -120,3 +120,68 @@ Data Types :
 
    What Is Operand ?
   - The Part Of an Instruction Representing The Data Manipulated by The Operator.
+
+  - Ram : [R]andom [A]ccess [M]emory
+  --- Computer Memory Has Locations
+
+  - Data Sizes
+  --- Bit => [Bi]nary Digi[t] => Smallest Unit in Storage Store Only 0 Or 1
+  --- Byte => A Group of 8 bits => Store Single Character
+
+  --- 1 Byte = 8 bit 
+  --- Kilo Byte = 1024 Byte
+  --- Mega Byte = 1024 Kilobytes
+  --- Giga Byte = 1024 Megabytes
+  --- Tera Byte = 1024 Gigabytes
+
+  - Data Types With Size
+  --- int    => 2 Or 4 Bytes => Will Cover Later Why
+  --- float  => 4 Bytes [18.5656565656] => we can use only 7 decimal precison : 7 numbers in the fractional component
+  --- double => 8 Bytes [18.5656565656] => we can use only 15 decimal precison : 15 numbers in the fractional component
+  ------ Number . Fractional C15mponent
+  --- char   => 1 Byte => "A" "x" "9"
+  --- boolean => 1 Byte => true, false
+  - Double vs Float
+      best Practice is using doule .
+
+  - The Story Behind Creating A Variable
+  --- Declare A Variable
+  --- Tell Computer That We Need To Reserve X Bytes Of Memory Depend On Data Type
+  --- Restrict Type Of Data To The Type We Choosed
+
+  - Declare Variable Without Type by using a keywoard auto that tells the compiler to guess the data type of the variable depends on the value .
+  - See Memory Address using => & before the variable name in the prin sentence .
+
+primitive data types :
+            [int]         [float]         [double]         [char]
+
+  - int => integer => positive numbers / negative numbers / 0
+      note :
+        when we give an integer num a value = true the compiler read it as a 1 
+        when we give an integer num a value = false the compiler read it as a 0
+    Store From -2147483648 To 2147483647
+                 INT_MIN  and  INT_MAX Constants ==> to know where this onstant varia store Check Limits Header File limits.h (#include <limits.h>).
+
+  - float => floating point Number
+      7 decimal precison
+      the compilar in the defaulf statment he deals with the fractional numbers as a double
+      and to make it deals with it as a floating number we put " f " Behind the number 
+        EX :
+        float f1 = 10.5 + 9.5   => in this statment the numbers is double numbers
+        float f1 = 10.5f + 9.5f   => in this statment the numbers is float numbers
+      we use this f to make the operation runs fast and in a little time than th double nums 
+
+  - double => double the float
+      15 decimal precison
+
+  - char => character => 1 Byte
+      we put the value into a single qoute ''
+    - ASCII => American Standard Code for Information Interchange.
+            => A Way of Representing Characters As Numbers.
+    -To make the type casting we use  " int(here we put the character) "  => it gives us the value of the character in the ASCII table  
+    -To know the character from his ascii number we use " char(here we put the number) "
+  
+        
+
+
+  

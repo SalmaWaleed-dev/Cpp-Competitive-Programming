@@ -38,6 +38,47 @@ int main()
     // cout << "Age In Days Is : " << ageInDays << " Days\n";
     // cout << "Age In Houes Is : " << ageInHours << " Hours\n";
 
+    /* 
+    !     - Application To Create
+    !       --- Create App Ask You To Type Number Of Kilobytes
+    !        --- Write 3 Lines Contains
+    !        ------ [1] The Number Of Kilobytes That User Input
+    !        ------ [2] The Number Of Bytes
+    !        ------ [3] The Number Of Bits
+    */
+    // cout << "\n***********************************\n";
+    // cout << "** Calculate the number Application **\n";
+    // cout << "***********************************\n";
 
+    // int numInKilobyte ;
+    // cout << "Please enter a number in Kilobyte : " ;
+    // cin >> numInKilobyte;
+    // cout << "The Number In Kilobytes : " << numInKilobyte << " Kilobyte\n";
+    // int numInByte = numInKilobyte * 1024 ;
+    // int numInBit = numInByte * 8 ;
+    // cout << "The Number In Bytes : " << numInByte << " Bytes\n";
+    // cout << "The Number In Bits : " << numInBit << " bits\n";
+    
+
+    /*
+    !     --- Create App To Convert ASCII To Character
+    !     --- Create App To Convert Character To ASCII
+    */
+    // cout << "\n***********************************\n";
+    // cout << "** Convert ASCII To Character **\n";
+    // cout << "***********************************\n";
+    // int ASCIINum;
+    // cout << "Enter your ASCII Number : ";
+    // cin >> ASCIINum;
+    // cout << "The Character of the ASCII " << ASCIINum <<" is : " << char(ASCIINum);
+        
+    // cout << "\n\n***********************************\n";
+    // cout << "** Convert Character To ASCII **\n";
+    // cout << "***********************************\n";
+    //     char character;
+    // cout << "Enter your character : ";
+    // cin >> character;
+    // cout << "The Number of the character " << character <<" is : " << int(character);
+    
     return 0; 
 }
