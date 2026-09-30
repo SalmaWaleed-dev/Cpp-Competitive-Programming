@@ -153,7 +153,7 @@ Data Types :
   - See Memory Address using => & before the variable name in the prin sentence .
 
 primitive data types :
-            [int]         [float]         [double]         [char]
+            [int]         [float]         [double]         [char]         [boolean]
 
   - int => integer => positive numbers / negative numbers / 0
       note :
@@ -181,7 +181,106 @@ primitive data types :
     -To make the type casting we use  " int(here we put the character) "  => it gives us the value of the character in the ASCII table  
     -To know the character from his ascii number we use " char(here we put the number) "
   
-        
-
-
+  - bool => boolean
+      true / false => case sensitive .
+      we can use boolean values in anything has " yes / no "," true / false "," on / off ".
+      bool variables => 1byte from Ram 
+      when you put a value in a bollean variable that's mean that is the result is true & and when you put a 0 that's mean that is the result is false .
   
+  - void => valueless => without value
+      when we use it with a method => not return value 
+
+  - Modifiers :
+      Modify the length of data => see limits " #include <limits.h> "
+
+
+      # signed [ int , char ] :
+          - store positive , negative integers and 0 
+          - int is signed by defaulf
+          THE STRUCTURE :  signed int variableName = positive or negative or 0 value 
+
+      # unsigned [ int , char ]
+          - store positive only
+          THE STRUCTURE :  unsigned int variableName = only positive value 
+
+      # short [int]
+          - can be short instead of short int " 2 byte "
+            - we can modify the int num ( = " 4 bytes " ) and make it a short int ( = " 2 bytes " ) by using a keyword short like this structure :
+                short int variableName = value ; 
+             and we can remove the int data type and write it using this structure " it gives us the same result"
+                short  variableName = value ; 
+      
+      # Long [ int , double ]
+          - store max value
+          - can be long instead of long int
+  
+      ### EX : ##########################################
+      #  cout << sizeof(short int) << "\n";       // 2  #
+      #  cout << sizeof(short) << "\n";           // 2  #
+      #  cout << sizeof(long int) << "\n";        // 4  #
+      #  cout << sizeof(long) << "\n";            // 4  #
+      #  cout << sizeof(long long int) << "\n";   // 8  #
+      #  cout << sizeof(long long) << "\n";       // 8  #
+      ###################################################
+
+  - type alias :
+      there are 2 ways to make it :
+        - using nickname = the Data_Type ;
+        - typedef the Data_Type the nickname  ;
+
+Type Conversion :
+   Convert Data of One Type To Another
+
+    # Implicit Conversion :
+      - Conversion Is Done Automatically By The Compiler
+       ______________________________________________________________________________
+      |  bool → char → short → int → long → long long → float → double → long double |
+      |                        Small → Large                                         |
+      | _____________________________________________________________________________|
+
+    # Explicit Conversion AKA Type Casting :
+      - Conversion Is Done By The Programmer
+       ______________________________________________________________________________
+      |  long double → double → float → long long → long → int → short → char → bool |
+      |                        Large → Small                                         |
+      | _____________________________________________________________________________|
+
+      - we put the data type in () before the variable when we use it ;
+
+            ### EX : ###################################################
+            #    double x = 20.5 ;                                     #
+            #    cout << x ;                   // 20.5                 #
+            #    cout << sizeof(x) ;           // 8 bytes " double "   #
+            #    cout << (int)x ;             // 20                    #
+            #    cout << sizeof((int)x) ;    // 4 bytes " int "        #
+            ############################################################
+         
+        or we can use the function like (syntax : dataType(variableName))
+             cout << int(x) ;           // 20
+            
+
+Data Loss :
+  - When Larger Type Is Converted To Smaller Type
+
+      ### add Data_Type : ##########
+      # int + int = int            #
+      # double + double = double   #
+      # float + float = float      #
+      # double + int = double      #
+      # int + float = float        #
+      # double + float = double    #
+      ##############################
+
+ Operators & Operands
+    "Symbols To Operate On Data"
+
+  - Arithmetic Operators
+      "For Mathematical Operations"
+         --- + => Addition
+         --- - => Subtraction
+         --- * => Multiplication
+         --- / => Division
+         --- % => Modulo => Remainder After Division
+
+  What Is Operand ?
+  - The Part Of an Instruction Representing The Data Manipulated by The Operator
